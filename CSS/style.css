@@ -1,0 +1,173 @@
+/* *{
+  border: 1px solid black;
+} */
+
+.banner-heading{
+    color: rgb(48, 48, 238);
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: "Roboto";
+}
+
+.banner-view-line{
+    color: white;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.content-line{
+    color: rgb(188, 57, 9);
+    font-size: 15px;
+    font-weight: 500;
+}
+.view-button{
+    color: white;
+    background-color: rgb(236, 122, 122);
+    border: none;           
+    color: white;               
+    padding: 10px ;         
+    text-align: center;         
+    text-decoration: none;      
+    display: inline-block;      
+    font-size: 15px;            
+    /* margin-left: 50px;
+    margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;          */
+    /* font-weight: 500;    */
+    /* cursor: pointer;             */
+    border-radius: 35px;
+}
+.banner-section-bg-container {
+    background-color: rgba(25,31,52); /* Blue background color */
+    background-image: url('../IMAGES/banner1.jpg'); /* Background image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-blend-mode: overlay; /* Blend blue with the image */
+    height: 70vh; /* Full viewport height */
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    color: white; /* Ensures text is readable */
+    padding: 135px;
+  }
+.card-section-container{
+  margin: -50px;
+  /* margin-left: 220px; */
+  padding: 0px;
+  border: 0;
+  display: flex;
+  align-items: stretch ;
+  gap: 155px;
+  flex-wrap: wrap;
+  width: 100vw;
+        box-sizing: border-box;
+        height: fit-content;
+        display: flex;
+        position: relative;
+        top: -2rem;
+        justify-content: center;
+}
+.col-md-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row.g-0 {
+  margin: 0; 
+}
+.card-container-dark{
+  text-align: center;
+  background-color: rgb(31, 34, 129);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 0px;
+  margin: 0;
+  border: none;
+  padding:0px;
+  height: 100%;
+  width: 250px;
+  /* margin-left: 55px;
+  margin-right: 55px; */
+}
+.card-container-light{
+  text-align: center;
+  background-color: rgb(77, 83, 238);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 0px;
+  margin: 0;
+  border: none;
+  padding: 0px;
+  height: 100%;
+  width: 250px;
+  /* margin-left: 55px;
+  margin-right: 55px; */
+}
+.card-title{
+    color: orange;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 900;
+}
+.card-description{
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.card-img-dark{
+  background-color: rgb(119, 131, 239);
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+  color: white;
+  font-weight: 900;
+}
+.card-img-light{
+  background-color: rgb(3, 12, 99);
+  width:80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 20px;
+  padding-left: 22px;
+  color: white;
+  font-weight: 900;
+}
+.who-we-are-container{
+  /* width: 500px; */
+  
+}
+.who-we-are-heading{
+  color: orange;
+  font-size: 18px;
+  margin-top: 100px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+.who-we-are-subheading{
+  color: rgb(3, 12, 99);
+  font-size: 25px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+.who-we-are-description{
+  color: grey;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+
+}
+.who-we-are-image{
+  height: 55vh;
+  width: 70%;
+}
